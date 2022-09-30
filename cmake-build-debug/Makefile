@@ -48,24 +48,13 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /tmp/tmp.KegikpVUfs
+CMAKE_SOURCE_DIR = /users/guest/g/gvance00/tmp/tmp.goadUT1F9w
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /tmp/tmp.KegikpVUfs/cmake-build-debug
+CMAKE_BINARY_DIR = /users/guest/g/gvance00/tmp/tmp.goadUT1F9w/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
-
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-
-.PHONY : edit_cache/fast
 
 # Special rule for the target rebuild_cache
 rebuild_cache:
@@ -78,11 +67,22 @@ rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
 
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+
+.PHONY : edit_cache/fast
+
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/tmp.KegikpVUfs/cmake-build-debug/CMakeFiles /tmp/tmp.KegikpVUfs/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /users/guest/g/gvance00/tmp/tmp.goadUT1F9w/cmake-build-debug/CMakeFiles /users/guest/g/gvance00/tmp/tmp.goadUT1F9w/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/tmp.KegikpVUfs/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /users/guest/g/gvance00/tmp/tmp.goadUT1F9w/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -111,17 +111,44 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named untitled
+# Target rules for targets named New-CS236-Project_1
 
 # Build rule for target.
-untitled: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 untitled
-.PHONY : untitled
+New-CS236-Project_1: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 New-CS236-Project_1
+.PHONY : New-CS236-Project_1
 
 # fast build rule for target.
-untitled/fast:
-	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/build
-.PHONY : untitled/fast
+New-CS236-Project_1/fast:
+	$(MAKE) -f CMakeFiles/New-CS236-Project_1.dir/build.make CMakeFiles/New-CS236-Project_1.dir/build
+.PHONY : New-CS236-Project_1/fast
+
+Lexer.o: Lexer.cpp.o
+
+.PHONY : Lexer.o
+
+# target to build an object file
+Lexer.cpp.o:
+	$(MAKE) -f CMakeFiles/New-CS236-Project_1.dir/build.make CMakeFiles/New-CS236-Project_1.dir/Lexer.cpp.o
+.PHONY : Lexer.cpp.o
+
+Lexer.i: Lexer.cpp.i
+
+.PHONY : Lexer.i
+
+# target to preprocess a source file
+Lexer.cpp.i:
+	$(MAKE) -f CMakeFiles/New-CS236-Project_1.dir/build.make CMakeFiles/New-CS236-Project_1.dir/Lexer.cpp.i
+.PHONY : Lexer.cpp.i
+
+Lexer.s: Lexer.cpp.s
+
+.PHONY : Lexer.s
+
+# target to generate assembly for a file
+Lexer.cpp.s:
+	$(MAKE) -f CMakeFiles/New-CS236-Project_1.dir/build.make CMakeFiles/New-CS236-Project_1.dir/Lexer.cpp.s
+.PHONY : Lexer.cpp.s
 
 main.o: main.cpp.o
 
@@ -129,7 +156,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/main.cpp.o
+	$(MAKE) -f CMakeFiles/New-CS236-Project_1.dir/build.make CMakeFiles/New-CS236-Project_1.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -138,7 +165,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/main.cpp.i
+	$(MAKE) -f CMakeFiles/New-CS236-Project_1.dir/build.make CMakeFiles/New-CS236-Project_1.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -147,7 +174,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/main.cpp.s
+	$(MAKE) -f CMakeFiles/New-CS236-Project_1.dir/build.make CMakeFiles/New-CS236-Project_1.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -156,9 +183,12 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... untitled"
+	@echo "... edit_cache"
+	@echo "... New-CS236-Project_1"
+	@echo "... Lexer.o"
+	@echo "... Lexer.i"
+	@echo "... Lexer.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

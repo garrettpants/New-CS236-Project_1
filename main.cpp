@@ -1,14 +1,12 @@
 #include "Lexer.cpp"
 #include <iostream>
 #include <string>
-#include <fstream>
-
-using namespace std;
-#include <iostream>
-#include <string>
 #include <filesystem>
 #include <unistd.h>
 #include <sstream>
+
+using namespace std;
+
 using std::cout; using std::cin;
 using std::endl; using std::string;
 //    char tmp[256];

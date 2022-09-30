@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/New-CS236-Project_1.dir/main.cpp.o CMakeFiles/New-CS236-Project_1.dir/Lexer.cpp.o  -o New-CS236-Project_1 

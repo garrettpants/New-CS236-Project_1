@@ -2,7 +2,7 @@
 <CodeBlocks_project_file>
 	<FileVersion major="1" minor="6"/>
 	<Project>
-		<Option title="untitled"/>
+		<Option title="New-CS236-Project_1"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
 		<Option virtualFolders="CMake Files\;"/>
@@ -37,8 +37,8 @@
 					<DistClean command="/usr/bin/make -j20 -f &quot;/users/guest/g/gvance00/tmp/tmp.goadUT1F9w/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="main.cpp">
-				<Option output="/users/guest/g/gvance00/tmp/tmp.goadUT1F9w/cmake-build-debug/main.cpp" prefix_auto="0" extension_auto="0"/>
+			<Target title="New-CS236-Project_1">
+				<Option output="/users/guest/g/gvance00/tmp/tmp.goadUT1F9w/cmake-build-debug/New-CS236-Project_1" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/users/guest/g/gvance00/tmp/tmp.goadUT1F9w/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -53,14 +53,14 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j20 -f &quot;/users/guest/g/gvance00/tmp/tmp.goadUT1F9w/cmake-build-debug/Makefile&quot;  VERBOSE=1 main.cpp"/>
+					<Build command="/usr/bin/make -j20 -f &quot;/users/guest/g/gvance00/tmp/tmp.goadUT1F9w/cmake-build-debug/Makefile&quot;  VERBOSE=1 New-CS236-Project_1"/>
 					<CompileFile command="/usr/bin/make -j20 -f &quot;/users/guest/g/gvance00/tmp/tmp.goadUT1F9w/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j20 -f &quot;/users/guest/g/gvance00/tmp/tmp.goadUT1F9w/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j20 -f &quot;/users/guest/g/gvance00/tmp/tmp.goadUT1F9w/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="main.cpp/fast">
-				<Option output="/users/guest/g/gvance00/tmp/tmp.goadUT1F9w/cmake-build-debug/main.cpp" prefix_auto="0" extension_auto="0"/>
+			<Target title="New-CS236-Project_1/fast">
+				<Option output="/users/guest/g/gvance00/tmp/tmp.goadUT1F9w/cmake-build-debug/New-CS236-Project_1" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/users/guest/g/gvance00/tmp/tmp.goadUT1F9w/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -75,7 +75,7 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j20 -f &quot;/users/guest/g/gvance00/tmp/tmp.goadUT1F9w/cmake-build-debug/Makefile&quot;  VERBOSE=1 main.cpp/fast"/>
+					<Build command="/usr/bin/make -j20 -f &quot;/users/guest/g/gvance00/tmp/tmp.goadUT1F9w/cmake-build-debug/Makefile&quot;  VERBOSE=1 New-CS236-Project_1/fast"/>
 					<CompileFile command="/usr/bin/make -j20 -f &quot;/users/guest/g/gvance00/tmp/tmp.goadUT1F9w/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j20 -f &quot;/users/guest/g/gvance00/tmp/tmp.goadUT1F9w/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j20 -f &quot;/users/guest/g/gvance00/tmp/tmp.goadUT1F9w/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -83,64 +83,67 @@
 			</Target>
 		</Build>
 		<Unit filename="/users/guest/g/gvance00/tmp/tmp.goadUT1F9w/Add.h">
-			<Option target="main.cpp"/>
+			<Option target="New-CS236-Project_1"/>
 		</Unit>
 		<Unit filename="/users/guest/g/gvance00/tmp/tmp.goadUT1F9w/Automaton.h">
-			<Option target="main.cpp"/>
+			<Option target="New-CS236-Project_1"/>
 		</Unit>
 		<Unit filename="/users/guest/g/gvance00/tmp/tmp.goadUT1F9w/Colon.h">
-			<Option target="main.cpp"/>
+			<Option target="New-CS236-Project_1"/>
 		</Unit>
 		<Unit filename="/users/guest/g/gvance00/tmp/tmp.goadUT1F9w/ColonDash.h">
-			<Option target="main.cpp"/>
+			<Option target="New-CS236-Project_1"/>
 		</Unit>
 		<Unit filename="/users/guest/g/gvance00/tmp/tmp.goadUT1F9w/Comma.h">
-			<Option target="main.cpp"/>
+			<Option target="New-CS236-Project_1"/>
 		</Unit>
 		<Unit filename="/users/guest/g/gvance00/tmp/tmp.goadUT1F9w/Comment.h">
-			<Option target="main.cpp"/>
+			<Option target="New-CS236-Project_1"/>
 		</Unit>
 		<Unit filename="/users/guest/g/gvance00/tmp/tmp.goadUT1F9w/Facts.h">
-			<Option target="main.cpp"/>
+			<Option target="New-CS236-Project_1"/>
 		</Unit>
 		<Unit filename="/users/guest/g/gvance00/tmp/tmp.goadUT1F9w/ID.h">
-			<Option target="main.cpp"/>
+			<Option target="New-CS236-Project_1"/>
 		</Unit>
 		<Unit filename="/users/guest/g/gvance00/tmp/tmp.goadUT1F9w/Left_Paren.h">
-			<Option target="main.cpp"/>
+			<Option target="New-CS236-Project_1"/>
 		</Unit>
 		<Unit filename="/users/guest/g/gvance00/tmp/tmp.goadUT1F9w/Lexer.cpp">
-			<Option target="main.cpp"/>
+			<Option target="New-CS236-Project_1"/>
 		</Unit>
 		<Unit filename="/users/guest/g/gvance00/tmp/tmp.goadUT1F9w/Lexer.h">
-			<Option target="main.cpp"/>
+			<Option target="New-CS236-Project_1"/>
 		</Unit>
 		<Unit filename="/users/guest/g/gvance00/tmp/tmp.goadUT1F9w/Multiply.h">
-			<Option target="main.cpp"/>
+			<Option target="New-CS236-Project_1"/>
 		</Unit>
 		<Unit filename="/users/guest/g/gvance00/tmp/tmp.goadUT1F9w/Period.h">
-			<Option target="main.cpp"/>
+			<Option target="New-CS236-Project_1"/>
 		</Unit>
 		<Unit filename="/users/guest/g/gvance00/tmp/tmp.goadUT1F9w/Q_Mark.h">
-			<Option target="main.cpp"/>
+			<Option target="New-CS236-Project_1"/>
 		</Unit>
 		<Unit filename="/users/guest/g/gvance00/tmp/tmp.goadUT1F9w/Queries.h">
-			<Option target="main.cpp"/>
+			<Option target="New-CS236-Project_1"/>
 		</Unit>
 		<Unit filename="/users/guest/g/gvance00/tmp/tmp.goadUT1F9w/Right_Paren.h">
-			<Option target="main.cpp"/>
+			<Option target="New-CS236-Project_1"/>
 		</Unit>
 		<Unit filename="/users/guest/g/gvance00/tmp/tmp.goadUT1F9w/Rules.h">
-			<Option target="main.cpp"/>
+			<Option target="New-CS236-Project_1"/>
 		</Unit>
 		<Unit filename="/users/guest/g/gvance00/tmp/tmp.goadUT1F9w/Schemes.h">
-			<Option target="main.cpp"/>
+			<Option target="New-CS236-Project_1"/>
 		</Unit>
 		<Unit filename="/users/guest/g/gvance00/tmp/tmp.goadUT1F9w/String.h">
-			<Option target="main.cpp"/>
+			<Option target="New-CS236-Project_1"/>
 		</Unit>
 		<Unit filename="/users/guest/g/gvance00/tmp/tmp.goadUT1F9w/Token.h">
-			<Option target="main.cpp"/>
+			<Option target="New-CS236-Project_1"/>
+		</Unit>
+		<Unit filename="/users/guest/g/gvance00/tmp/tmp.goadUT1F9w/main.cpp">
+			<Option target="New-CS236-Project_1"/>
 		</Unit>
 		<Unit filename="/users/guest/g/gvance00/tmp/tmp.goadUT1F9w/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>

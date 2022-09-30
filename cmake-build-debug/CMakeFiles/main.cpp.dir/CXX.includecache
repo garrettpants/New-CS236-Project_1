@@ -132,23 +132,3 @@ iostream
 sstream
 -
 
-/users/guest/g/gvance00/tmp/tmp.goadUT1F9w/main.cpp
-Lexer.cpp
-/users/guest/g/gvance00/tmp/tmp.goadUT1F9w/Lexer.cpp
-iostream
--
-string
--
-fstream
--
-iostream
--
-string
--
-filesystem
--
-unistd.h
--
-sstream
--
-
